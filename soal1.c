@@ -41,6 +41,16 @@ void tambahPasien(char* kode, int id, int durasi) {
     }
 }
 
+void hitungDurasi(int dur){
+    if (head == NULL) {
+        printf("\n Data  masih kosong\n");
+        return;
+    }
+    struct Pasien* temp = head;
+    struct Pasien* prev = NULL;
+    int durasiTotal = temp->durasi;
+}
+
 
 
 int main (){
